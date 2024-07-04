@@ -1,4 +1,4 @@
-package com.ahmedapps.themovies.media_details.presentation.details
+package com.application.film.media_details.presentation.details
 
 import android.widget.Toast
 import androidx.compose.foundation.background
@@ -55,17 +55,17 @@ import coil.compose.AsyncImagePainter
 import coil.compose.rememberAsyncImagePainter
 import coil.request.ImageRequest
 import coil.size.Size
-import com.ahmedapps.themovies.R
-import com.ahmedapps.themovies.main.data.remote.api.MediaApi
-import com.ahmedapps.themovies.main.domain.models.Media
-import com.ahmedapps.themovies.media_details.presentation.details.detailScreenUiComponents.MovieImage
-import com.ahmedapps.themovies.theme.SmallRadius
-import com.ahmedapps.themovies.ui.theme.font
-import com.ahmedapps.themovies.util.Constants
-import com.ahmedapps.themovies.util.Route
-import com.ahmedapps.themovies.util.ui_shared_components.Item
-import com.ahmedapps.themovies.util.ui_shared_components.RatingBar
-import com.ahmedapps.themovies.util.ui_shared_components.genresProvider
+import com.application.film.R
+import com.application.film.main.data.remote.api.MediaApi
+import com.application.film.main.domain.models.Media
+import com.application.film.media_details.presentation.details.detailScreenUiComponents.MovieImage
+import com.application.film.theme.SmallRadius
+import com.application.film.ui.theme.font
+import com.application.film.util.Constants
+import com.application.film.util.Route
+import com.application.film.util.ui_shared_components.Item
+import com.application.film.util.ui_shared_components.RatingBar
+import com.application.film.util.ui_shared_components.genresProvider
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 

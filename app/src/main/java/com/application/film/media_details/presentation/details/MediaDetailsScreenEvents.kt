@@ -1,6 +1,6 @@
-package com.ahmedapps.themovies.media_details.presentation.details
+package com.application.film.media_details.presentation.details
 
-import com.ahmedapps.themovies.main.domain.models.Genre
+import com.application.film.main.domain.models.Genre
 
 sealed class MediaDetailsScreenEvents {
 

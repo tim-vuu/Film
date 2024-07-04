@@ -1,4 +1,4 @@
-package com.ahmedapps.themovies.util.ui_shared_components
+package com.application.film.util.ui_shared_components
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
@@ -26,11 +26,11 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
-import com.ahmedapps.themovies.main.domain.models.Media
-import com.ahmedapps.themovies.theme.Radius
+import com.application.film.main.domain.models.Media
+import com.application.film.theme.Radius
 
 
-import com.ahmedapps.themovies.ui.theme.font
+import com.application.film.ui.theme.font
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 

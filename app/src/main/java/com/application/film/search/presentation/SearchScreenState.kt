@@ -1,6 +1,6 @@
-package com.ahmedapps.themovies.search.presentation
+package com.application.film.search.presentation
 
-import com.ahmedapps.themovies.main.domain.models.Media
+import com.application.film.main.domain.models.Media
 
 data class SearchScreenState(
 

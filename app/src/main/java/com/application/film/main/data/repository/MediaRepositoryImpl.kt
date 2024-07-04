@@ -1,14 +1,14 @@
-package com.ahmedapps.themovies.main.data.repository
+package com.application.film.main.data.repository
 
-import com.ahmedapps.themovies.main.data.local.media.MediaDatabase
-import com.ahmedapps.themovies.main.data.mappers.toMedia
-import com.ahmedapps.themovies.main.data.mappers.toMediaEntity
-import com.ahmedapps.themovies.main.data.remote.api.MediaApi
-import com.ahmedapps.themovies.main.domain.models.Media
-import com.ahmedapps.themovies.main.domain.repository.MediaRepository
-import com.ahmedapps.themovies.util.Constants
-import com.ahmedapps.themovies.util.Constants.TRENDING
-import com.ahmedapps.themovies.util.Resource
+import com.application.film.main.data.local.media.MediaDatabase
+import com.application.film.main.data.mappers.toMedia
+import com.application.film.main.data.mappers.toMediaEntity
+import com.application.film.main.data.remote.api.MediaApi
+import com.application.film.main.domain.models.Media
+import com.application.film.main.domain.repository.MediaRepository
+import com.application.film.util.Constants
+import com.application.film.util.Constants.TRENDING
+import com.application.film.util.Resource
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import retrofit2.HttpException

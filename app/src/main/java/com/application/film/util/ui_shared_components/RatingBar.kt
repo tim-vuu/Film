@@ -1,4 +1,4 @@
-package com.ahmedapps.themovies.util.ui_shared_components
+package com.application.film.util.ui_shared_components
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.material3.Icon
@@ -6,8 +6,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
-import com.ahmedapps.themovies.R
-import com.ahmedapps.themovies.ui.theme.yellow
+import com.application.film.R
+import com.application.film.ui.theme.yellow
 
 @Composable
 fun RatingBar(

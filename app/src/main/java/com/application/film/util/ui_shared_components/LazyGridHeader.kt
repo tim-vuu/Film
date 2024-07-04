@@ -1,4 +1,4 @@
-package com.ahmedapps.themovies.util.ui_shared_components
+package com.application.film.util.ui_shared_components
 
 import androidx.compose.foundation.lazy.grid.GridItemSpan
 import androidx.compose.foundation.lazy.grid.LazyGridItemScope

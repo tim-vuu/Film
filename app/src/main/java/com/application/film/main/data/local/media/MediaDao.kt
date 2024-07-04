@@ -1,4 +1,4 @@
-package com.ahmedapps.themovies.main.data.local.media
+package com.application.film.main.data.local.media
 
 import androidx.room.Dao
 import androidx.room.Insert

@@ -1,4 +1,4 @@
-package com.ahmedapps.themovies.util
+package com.application.film.util
 
 object Constants {
 

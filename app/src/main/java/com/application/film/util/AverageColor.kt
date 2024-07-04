@@ -1,4 +1,4 @@
-package com.ahmedapps.themovies.util
+package com.application.film.util
 
 import android.graphics.Bitmap
 import androidx.compose.runtime.Composable

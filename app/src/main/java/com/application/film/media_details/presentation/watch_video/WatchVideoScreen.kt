@@ -1,4 +1,4 @@
-package com.ahmedapps.themovies.media_details.presentation.watch_video
+package com.application.film.media_details.presentation.watch_video
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box

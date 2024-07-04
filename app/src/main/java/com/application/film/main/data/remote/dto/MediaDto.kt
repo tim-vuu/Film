@@ -1,4 +1,4 @@
-package com.ahmedapps.themovies.main.data.remote.dto
+package com.application.film.main.data.remote.dto
 
 data class MediaDto(
     val adult: Boolean? = null,

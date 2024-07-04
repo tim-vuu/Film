@@ -1,4 +1,4 @@
-package com.ahmedapps.themovies.media_details.presentation.details.detailScreenUiComponents
+package com.application.film.media_details.presentation.details.detailScreenUiComponents
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -19,9 +19,9 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
 import androidx.core.graphics.drawable.toBitmap
 import coil.compose.AsyncImagePainter
-import com.ahmedapps.themovies.util.ui_shared_components.shimmerEffect
-import com.ahmedapps.themovies.theme.Radius
-import com.ahmedapps.themovies.util.getAverageColor
+import com.application.film.util.ui_shared_components.shimmerEffect
+import com.application.film.theme.Radius
+import com.application.film.util.getAverageColor
 
 
 @Composable

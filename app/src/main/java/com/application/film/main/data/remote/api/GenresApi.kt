@@ -1,7 +1,7 @@
-package com.ahmedapps.themovies.main.data.remote.api
+package com.application.film.main.data.remote.api
 
 
-import com.ahmedapps.themovies.main.data.remote.dto.GenresListDto
+import com.application.film.main.data.remote.dto.GenresListDto
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query

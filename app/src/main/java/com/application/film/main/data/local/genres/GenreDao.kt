@@ -1,4 +1,4 @@
-package com.ahmedapps.themovies.main.data.local.genres
+package com.application.film.main.data.local.genres
 
 import androidx.room.Dao
 import androidx.room.Insert

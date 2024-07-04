@@ -1,4 +1,4 @@
-package com.ahmedapps.themovies.main.domain.models
+package com.application.film.main.domain.models
 
 data class Genre(
     val id: Int,

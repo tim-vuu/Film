@@ -1,4 +1,4 @@
-package com.ahmedapps.themovies.search.presentation
+package com.application.film.search.presentation
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -20,11 +20,11 @@ import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
-import com.ahmedapps.themovies.main.presentation.main.MainUiState
-import com.ahmedapps.themovies.search.presentation.searchScreenUiComponents.SearchMediaItem
-import com.ahmedapps.themovies.util.ui_shared_components.FocusedTopBar
-import com.ahmedapps.themovies.theme.BigRadius
-import com.ahmedapps.themovies.util.Constants
+import com.application.film.main.presentation.main.MainUiState
+import com.application.film.search.presentation.searchScreenUiComponents.SearchMediaItem
+import com.application.film.util.ui_shared_components.FocusedTopBar
+import com.application.film.theme.BigRadius
+import com.application.film.util.Constants
 import kotlin.math.roundToInt
 
 @Composable

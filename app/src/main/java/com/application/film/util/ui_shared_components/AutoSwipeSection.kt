@@ -1,4 +1,4 @@
-package com.ahmedapps.themovies.util.ui_shared_components
+package com.application.film.util.ui_shared_components
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -14,9 +14,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
-import com.ahmedapps.themovies.main.presentation.main.MainUiState
+import com.application.film.main.presentation.main.MainUiState
 
-import com.ahmedapps.themovies.ui.theme.font
+import com.application.film.ui.theme.font
 
 @Composable
 fun AutoSwipeSection(

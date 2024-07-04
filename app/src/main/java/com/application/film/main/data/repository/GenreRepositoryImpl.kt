@@ -1,13 +1,13 @@
-package com.ahmedapps.themovies.main.data.repository
+package com.application.film.main.data.repository
 
 import android.app.Application
-import com.ahmedapps.themovies.R
-import com.ahmedapps.themovies.main.data.local.genres.GenreEntity
-import com.ahmedapps.themovies.main.data.local.genres.GenresDatabase
-import com.ahmedapps.themovies.util.Resource
-import com.ahmedapps.themovies.main.data.remote.api.GenresApi
-import com.ahmedapps.themovies.main.domain.models.Genre
-import com.ahmedapps.themovies.main.domain.repository.GenreRepository
+import com.application.film.R
+import com.application.film.main.data.local.genres.GenreEntity
+import com.application.film.main.data.local.genres.GenresDatabase
+import com.application.film.util.Resource
+import com.application.film.main.data.remote.api.GenresApi
+import com.application.film.main.domain.models.Genre
+import com.application.film.main.domain.repository.GenreRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import retrofit2.HttpException

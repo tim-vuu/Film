@@ -1,4 +1,4 @@
-package com.ahmedapps.themovies.media_details.domain.models
+package com.application.film.media_details.domain.models
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

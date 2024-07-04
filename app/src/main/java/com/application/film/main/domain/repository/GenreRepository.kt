@@ -1,7 +1,7 @@
-package com.ahmedapps.themovies.main.domain.repository
+package com.application.film.main.domain.repository
 
-import com.ahmedapps.themovies.util.Resource
-import com.ahmedapps.themovies.main.domain.models.Genre
+import com.application.film.util.Resource
+import com.application.film.main.domain.models.Genre
 import kotlinx.coroutines.flow.Flow
 
 interface GenreRepository {

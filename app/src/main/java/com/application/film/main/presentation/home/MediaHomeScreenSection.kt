@@ -1,4 +1,4 @@
-package com.ahmedapps.themovies.main.presentation.home
+package com.application.film.main.presentation.home
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -20,12 +20,12 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import androidx.navigation.NavHostController
-import com.ahmedapps.themovies.R
-import com.ahmedapps.themovies.main.presentation.main.MainUiState
-import com.ahmedapps.themovies.ui.theme.font
-import com.ahmedapps.themovies.util.BottomNavRoute
-import com.ahmedapps.themovies.util.Constants
-import com.ahmedapps.themovies.util.ui_shared_components.Item
+import com.application.film.R
+import com.application.film.main.presentation.main.MainUiState
+import com.application.film.ui.theme.font
+import com.application.film.util.BottomNavRoute
+import com.application.film.util.Constants
+import com.application.film.util.ui_shared_components.Item
 
 @Composable
 fun MediaHomeScreenSection(

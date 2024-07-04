@@ -1,8 +1,8 @@
-package com.ahmedapps.themovies.media_details.data.remote.api
+package com.application.film.media_details.data.remote.api
 
-import com.ahmedapps.themovies.media_details.data.remote.dto.details.DetailsDto
-import com.ahmedapps.themovies.media_details.data.remote.dto.videos.VideosList
-import com.ahmedapps.themovies.main.data.remote.dto.MediaListDto
+import com.application.film.media_details.data.remote.dto.details.DetailsDto
+import com.application.film.media_details.data.remote.dto.videos.VideosList
+import com.application.film.main.data.remote.dto.MediaListDto
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query

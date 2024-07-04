@@ -1,4 +1,4 @@
-package com.ahmedapps.themovies.util.ui_shared_components
+package com.application.film.util.ui_shared_components
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
@@ -16,9 +16,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.ahmedapps.themovies.R
-import com.ahmedapps.themovies.main.domain.models.Media
-import com.ahmedapps.themovies.main.presentation.main.MainUiEvents
+import com.application.film.R
+import com.application.film.main.domain.models.Media
+import com.application.film.main.presentation.main.MainUiEvents
 
 @Composable
 fun LikeAndDislike(

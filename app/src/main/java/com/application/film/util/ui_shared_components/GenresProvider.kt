@@ -1,7 +1,7 @@
-package com.ahmedapps.themovies.util.ui_shared_components
+package com.application.film.util.ui_shared_components
 
 import androidx.compose.runtime.Composable
-import com.ahmedapps.themovies.main.domain.models.Genre
+import com.application.film.main.domain.models.Genre
 
 @Composable
 fun genresProvider(

@@ -1,4 +1,4 @@
-package com.ahmedapps.themovies.media_details.domain.usecase
+package com.application.film.media_details.domain.usecase
 
 /**
  * @author Ahmed Guedmioui

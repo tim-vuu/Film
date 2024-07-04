@@ -1,4 +1,4 @@
-package com.ahmedapps.themovies.main.presentation.main
+package com.application.film.main.presentation.main
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.Icon
@@ -27,11 +27,11 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.ahmedapps.themovies.main.presentation.home.MediaHomeScreen
-import com.ahmedapps.themovies.main.presentation.popularAndTvSeries.MediaListScreen
-import com.ahmedapps.themovies.ui.theme.font
-import com.ahmedapps.themovies.util.BottomNavRoute
-import com.ahmedapps.themovies.util.Constants
+import com.application.film.main.presentation.home.MediaHomeScreen
+import com.application.film.main.presentation.popularAndTvSeries.MediaListScreen
+import com.application.film.ui.theme.font
+import com.application.film.util.BottomNavRoute
+import com.application.film.util.Constants
 
 data class BottomNavigationItem(
     val title: String,

@@ -1,7 +1,7 @@
-package com.ahmedapps.themovies.main.presentation.main
+package com.application.film.main.presentation.main
 
-import com.ahmedapps.themovies.main.domain.models.Genre
-import com.ahmedapps.themovies.main.domain.models.Media
+import com.application.film.main.domain.models.Genre
+import com.application.film.main.domain.models.Media
 
 data class MainUiState(
 

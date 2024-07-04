@@ -1,4 +1,4 @@
-package com.ahmedapps.themovies.theme
+package com.application.film.theme
 
 const val RadiusContainer = 24
 const val Radius = 20

@@ -1,4 +1,4 @@
-package com.ahmedapps.themovies.util.ui_shared_components
+package com.application.film.util.ui_shared_components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -17,10 +17,10 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.ahmedapps.themovies.R
-import com.ahmedapps.themovies.search.presentation.SearchScreenState
-import com.ahmedapps.themovies.theme.BigRadius
-import com.ahmedapps.themovies.util.Route
+import com.application.film.R
+import com.application.film.search.presentation.SearchScreenState
+import com.application.film.theme.BigRadius
+import com.application.film.util.Route
 
 @Composable
 fun NonFocusedTopBar(

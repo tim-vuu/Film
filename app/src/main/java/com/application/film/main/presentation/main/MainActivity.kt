@@ -1,4 +1,4 @@
-package com.ahmedapps.themovies.main.presentation.main
+package com.application.film.main.presentation.main
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -14,15 +14,15 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.ahmedapps.themovies.media_details.presentation.details.MediaDetailsScreenEvents
-import com.ahmedapps.themovies.media_details.presentation.details.MediaDetailsViewModel
-import com.ahmedapps.themovies.media_details.presentation.details.MediaDetailScreen
-import com.ahmedapps.themovies.media_details.presentation.details.SomethingWentWrong
-import com.ahmedapps.themovies.media_details.presentation.similar_media.SimilarMediaListScreen
-import com.ahmedapps.themovies.media_details.presentation.watch_video.WatchVideoScreen
-import com.ahmedapps.themovies.search.presentation.SearchScreen
-import com.ahmedapps.themovies.ui.theme.TheMoviesTheme
-import com.ahmedapps.themovies.util.Route
+import com.application.film.media_details.presentation.details.MediaDetailsScreenEvents
+import com.application.film.media_details.presentation.details.MediaDetailsViewModel
+import com.application.film.media_details.presentation.details.MediaDetailScreen
+import com.application.film.media_details.presentation.details.SomethingWentWrong
+import com.application.film.media_details.presentation.similar_media.SimilarMediaListScreen
+import com.application.film.media_details.presentation.watch_video.WatchVideoScreen
+import com.application.film.search.presentation.SearchScreen
+import com.application.film.ui.theme.TheMoviesTheme
+import com.application.film.util.Route
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

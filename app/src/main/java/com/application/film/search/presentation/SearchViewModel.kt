@@ -1,11 +1,11 @@
-package com.ahmedapps.themovies.search.presentation
+package com.application.film.search.presentation
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.ahmedapps.themovies.main.data.remote.api.MediaApi.Companion.API_KEY
-import com.ahmedapps.themovies.main.domain.repository.MediaRepository
-import com.ahmedapps.themovies.search.domain.repository.SearchRepository
-import com.ahmedapps.themovies.util.Resource
+import com.application.film.main.data.remote.api.MediaApi.Companion.API_KEY
+import com.application.film.main.domain.repository.MediaRepository
+import com.application.film.search.domain.repository.SearchRepository
+import com.application.film.util.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay

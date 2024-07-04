@@ -1,4 +1,4 @@
-package com.ahmedapps.themovies.media_details.data.remote.dto.details
+package com.application.film.media_details.data.remote.dto.details
 
 data class DetailsDto(
     val runtime: Int,

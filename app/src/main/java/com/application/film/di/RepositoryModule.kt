@@ -1,15 +1,15 @@
-package com.ahmedapps.themovies.di
+package com.application.film.di
 
-import com.ahmedapps.themovies.media_details.data.repository.DetailsRepositoryImpl
-import com.ahmedapps.themovies.media_details.data.repository.ExtraDetailsRepositoryImpl
-import com.ahmedapps.themovies.media_details.domain.repository.DetailsRepository
-import com.ahmedapps.themovies.media_details.domain.repository.ExtraDetailsRepository
-import com.ahmedapps.themovies.main.data.repository.GenreRepositoryImpl
-import com.ahmedapps.themovies.main.data.repository.MediaRepositoryImpl
-import com.ahmedapps.themovies.search.data.repository.SearchRepositoryImpl
-import com.ahmedapps.themovies.main.domain.repository.GenreRepository
-import com.ahmedapps.themovies.main.domain.repository.MediaRepository
-import com.ahmedapps.themovies.search.domain.repository.SearchRepository
+import com.application.film.media_details.data.repository.DetailsRepositoryImpl
+import com.application.film.media_details.data.repository.ExtraDetailsRepositoryImpl
+import com.application.film.media_details.domain.repository.DetailsRepository
+import com.application.film.media_details.domain.repository.ExtraDetailsRepository
+import com.application.film.main.data.repository.GenreRepositoryImpl
+import com.application.film.main.data.repository.MediaRepositoryImpl
+import com.application.film.search.data.repository.SearchRepositoryImpl
+import com.application.film.main.domain.repository.GenreRepository
+import com.application.film.main.domain.repository.MediaRepository
+import com.application.film.search.domain.repository.SearchRepository
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn

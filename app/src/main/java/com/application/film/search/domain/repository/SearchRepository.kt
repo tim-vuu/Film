@@ -1,7 +1,7 @@
-package com.ahmedapps.themovies.search.domain.repository
+package com.application.film.search.domain.repository
 
-import com.ahmedapps.themovies.util.Resource
-import com.ahmedapps.themovies.main.domain.models.Media
+import com.application.film.util.Resource
+import com.application.film.main.domain.models.Media
 import kotlinx.coroutines.flow.Flow
 
 interface SearchRepository {

@@ -1,4 +1,4 @@
-package com.ahmedapps.themovies.media_details.presentation.similar_media
+package com.application.film.media_details.presentation.similar_media
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -20,13 +20,13 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
-import com.ahmedapps.themovies.R
-import com.ahmedapps.themovies.media_details.presentation.details.MediaDetailsScreenState
-import com.ahmedapps.themovies.media_details.presentation.details.detailScreenUiComponents.SimilarMediaItem
-import com.ahmedapps.themovies.theme.SmallRadius
-import com.ahmedapps.themovies.ui.theme.font
-import com.ahmedapps.themovies.util.ui_shared_components.ListShimmerEffect
-import com.ahmedapps.themovies.util.ui_shared_components.header
+import com.application.film.R
+import com.application.film.media_details.presentation.details.MediaDetailsScreenState
+import com.application.film.media_details.presentation.details.detailScreenUiComponents.SimilarMediaItem
+import com.application.film.theme.SmallRadius
+import com.application.film.ui.theme.font
+import com.application.film.util.ui_shared_components.ListShimmerEffect
+import com.application.film.util.ui_shared_components.header
 
 @Composable
 fun SimilarMediaListScreen(

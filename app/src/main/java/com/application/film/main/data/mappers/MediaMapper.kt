@@ -1,9 +1,9 @@
-package com.ahmedapps.themovies.main.data.mappers
+package com.application.film.main.data.mappers
 
-import com.ahmedapps.themovies.util.Constants
-import com.ahmedapps.themovies.main.data.local.media.MediaEntity
-import com.ahmedapps.themovies.main.data.remote.dto.MediaDto
-import com.ahmedapps.themovies.main.domain.models.Media
+import com.application.film.util.Constants
+import com.application.film.main.data.local.media.MediaEntity
+import com.application.film.main.data.remote.dto.MediaDto
+import com.application.film.main.domain.models.Media
 
 fun MediaEntity.toMedia(
     type: String,

@@ -1,4 +1,4 @@
-package com.ahmedapps.themovies.search.presentation.searchScreenUiComponents
+package com.application.film.search.presentation.searchScreenUiComponents
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -44,19 +44,19 @@ import coil.compose.AsyncImagePainter
 import coil.compose.rememberAsyncImagePainter
 import coil.request.ImageRequest
 import coil.size.Size
-import com.ahmedapps.themovies.R
-import com.ahmedapps.themovies.util.getAverageColor
-import com.ahmedapps.themovies.main.data.remote.api.MediaApi.Companion.IMAGE_BASE_URL
-import com.ahmedapps.themovies.main.domain.models.Media
-import com.ahmedapps.themovies.main.presentation.main.MainUiState
-import com.ahmedapps.themovies.search.presentation.SearchUiEvents
-import com.ahmedapps.themovies.theme.Radius
-import com.ahmedapps.themovies.theme.RadiusContainer
-import com.ahmedapps.themovies.ui.theme.font
-import com.ahmedapps.themovies.util.Constants
-import com.ahmedapps.themovies.util.Route
-import com.ahmedapps.themovies.util.ui_shared_components.RatingBar
-import com.ahmedapps.themovies.util.ui_shared_components.genresProvider
+import com.application.film.R
+import com.application.film.util.getAverageColor
+import com.application.film.main.data.remote.api.MediaApi.Companion.IMAGE_BASE_URL
+import com.application.film.main.domain.models.Media
+import com.application.film.main.presentation.main.MainUiState
+import com.application.film.search.presentation.SearchUiEvents
+import com.application.film.theme.Radius
+import com.application.film.theme.RadiusContainer
+import com.application.film.ui.theme.font
+import com.application.film.util.Constants
+import com.application.film.util.Route
+import com.application.film.util.ui_shared_components.RatingBar
+import com.application.film.util.ui_shared_components.genresProvider
 
 @Composable
 fun SearchMediaItem(

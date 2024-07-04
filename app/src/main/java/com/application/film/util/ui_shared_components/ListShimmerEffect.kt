@@ -1,4 +1,4 @@
-package com.ahmedapps.themovies.util.ui_shared_components
+package com.application.film.util.ui_shared_components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -21,9 +21,9 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.ahmedapps.themovies.theme.Radius
-import com.ahmedapps.themovies.theme.RadiusContainer
-import com.ahmedapps.themovies.ui.theme.font
+import com.application.film.theme.Radius
+import com.application.film.theme.RadiusContainer
+import com.application.film.ui.theme.font
 
 @Composable
 fun ListShimmerEffect(

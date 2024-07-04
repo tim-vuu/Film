@@ -1,4 +1,4 @@
-package com.ahmedapps.themovies.util.ui_shared_components
+package com.application.film.util.ui_shared_components
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -19,12 +19,12 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import androidx.navigation.NavHostController
-import com.ahmedapps.themovies.R
-import com.ahmedapps.themovies.main.presentation.main.MainUiState
-import com.ahmedapps.themovies.main.presentation.home.MediaHomeScreenSection
-import com.ahmedapps.themovies.theme.Radius
-import com.ahmedapps.themovies.ui.theme.font
-import com.ahmedapps.themovies.util.Constants
+import com.application.film.R
+import com.application.film.main.presentation.main.MainUiState
+import com.application.film.main.presentation.home.MediaHomeScreenSection
+import com.application.film.theme.Radius
+import com.application.film.ui.theme.font
+import com.application.film.util.Constants
 
 
 @Composable

@@ -1,4 +1,4 @@
-package com.ahmedapps.themovies.media_details.data.remote.dto.videos
+package com.application.film.media_details.data.remote.dto.videos
 
 data class VideoDto(
     val id: String,

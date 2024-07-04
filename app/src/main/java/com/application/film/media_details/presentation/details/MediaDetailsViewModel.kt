@@ -1,13 +1,13 @@
-package com.ahmedapps.themovies.media_details.presentation.details
+package com.application.film.media_details.presentation.details
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.ahmedapps.themovies.main.data.remote.api.MediaApi.Companion.API_KEY
-import com.ahmedapps.themovies.main.domain.repository.MediaRepository
-import com.ahmedapps.themovies.media_details.domain.repository.DetailsRepository
-import com.ahmedapps.themovies.media_details.domain.repository.ExtraDetailsRepository
-import com.ahmedapps.themovies.media_details.domain.usecase.MinutesToReadableTime
-import com.ahmedapps.themovies.util.Resource
+import com.application.film.main.data.remote.api.MediaApi.Companion.API_KEY
+import com.application.film.main.domain.repository.MediaRepository
+import com.application.film.media_details.domain.repository.DetailsRepository
+import com.application.film.media_details.domain.repository.ExtraDetailsRepository
+import com.application.film.media_details.domain.usecase.MinutesToReadableTime
+import com.application.film.util.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
